@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L5.08859 5.08859L10.1772 0L0 0Z" transform="translate(7.1240196 10.177172)" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="iconnavigationarrow_drop_down_24px">
+    <path d="M0 0L5.08859 5.08859L10.1772 0L0 0Z" transform="translate(7.1240196 10.177172)" id="-↳Color" fill="#000000" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
