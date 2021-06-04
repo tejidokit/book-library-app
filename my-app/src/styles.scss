@@ -15,24 +15,26 @@ nav {
 
 .left-nav {
     background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.bell {
+  display: flex;
+
+}
+
+.nav-profile-pic {
+  display: flex;
+}
+
+.mail {
+  display: flex;
+
 }
 
 
-// .search {
-//     background-color:blue;
-//     display:flex;
-
-//     position: relative;
-//     font-size 16px;
-//     background: white;
-
-//     margin-top: 0px;
-//     margin-bottom: 0px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding: 15px 25px;
-    
-// }
 
 
 .cd-form {
