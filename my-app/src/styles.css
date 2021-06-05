@@ -3,7 +3,6 @@ body {
 }
 
 nav {
-  background-color: yellow;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,8 +14,7 @@ nav {
 }
 
 .left_nav {
-  background-color: blue;
-  margin: 20px;
+  margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +25,6 @@ nav {
 }
 
 .top_left_nav {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,6 +41,7 @@ nav {
 }
 
 .bell {
+  margin-right: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,6 +54,7 @@ nav {
 }
 
 .mail {
+  margin-left: 45px;
   width: 22px;
   height: 22px;
   display: -webkit-box;
@@ -66,7 +65,6 @@ nav {
 }
 
 .middle_left_nav {
-  background-color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,11 +87,10 @@ nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 15px;
+  margin: 5px;
 }
 
 .bottom_left_nav {
-  background-color: pink;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,14 +105,13 @@ nav {
 }
 
 .nav_profile_name {
-  background-color: orange;
+  margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .profile_drop_down {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
