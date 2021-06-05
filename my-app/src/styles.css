@@ -1,5 +1,5 @@
 body {
-  margin: 30px;
+  width: 100%;
 }
 
 nav {
@@ -16,6 +16,7 @@ nav {
 
 .left_nav {
   background-color: blue;
+  margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,8 +44,6 @@ nav {
 }
 
 .bell {
-  width: 20px;
-  height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,6 +83,15 @@ nav {
   display: flex;
 }
 
+.left_nav_spacing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 15px;
+}
+
 .bottom_left_nav {
   background-color: pink;
   display: -webkit-box;
@@ -93,20 +101,17 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .nav_profile_name {
+  background-color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
 }
 
 .profile_drop_down {
@@ -114,9 +119,6 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .cd-form {

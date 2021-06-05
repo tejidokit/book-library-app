@@ -1,7 +1,7 @@
 // this is for SASS
 
 body {
-    margin: 30px;
+    width: 100%;
 }
 
 nav {
@@ -15,6 +15,7 @@ nav {
 
 .left_nav {
     background-color: blue;
+    margin: 20px;
 
     display: flex;
     flex-direction: column;
@@ -35,8 +36,8 @@ nav {
 
 .bell {
 
-  width: 20px;
-  height: 20px;
+  // width: 17px;
+  // height: 17px;
 
   display: flex;
   justify-content: flex-start;
@@ -72,26 +73,32 @@ nav {
   
   
 }
-
+.left_nav_spacing {
+  display: flex;
+  justify-content:space-around;
+  margin: 15px;
+}
 
 .bottom_left_nav {
   background-color: pink;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-self: flex-end;
 }
 
+
 .nav_profile_name {
-  // background-color: blue;
+  background-color: orange;
   display: flex;
-  
+}
 
 .profile_drop_down {
-  // background-color: red;
+  background-color: red;
+  // margin-top: 10px;
 
   display: flex;
-  justify-content: flex-end;
+  // justify-content: flex-end;
 }
 
 
